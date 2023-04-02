@@ -1,8 +1,0 @@
-version: "3.8"
-services:
-  vlmcsd:
-    image: "vlmcsd:latest"
-    ports:
-      - "1688:1688"
-    restart: always
-    container_name: kms-server
